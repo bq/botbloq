@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.8)  9 SEP 2015 11:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.8)  2 OCT 2015 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -392,19 +392,19 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 59.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -425,7 +425,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \oddsidemargin=17.3571pt
 * \evensidemargin=17.3571pt
 * \topmargin=-7.86334pt
-* \headheight=26.0pt
+* \headheight=16.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -502,114 +502,174 @@ e
 <Pictures/logo.png, id=1, 598.235pt x 598.235pt>
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 68.
+Package pdftex.def Info: Pictures/logo.png used on input line 71.
 (pdftex.def)             Requested size: 85.35826pt x 85.3589pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 74.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+<Pictures/CDTI.jpg, id=3, 2398.9625pt x 398.48875pt>
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 80.
+(pdftex.def)             Requested size: 213.39566pt x 35.44289pt.
+
+<Pictures/FEDER.jpg, id=4, 9484.43375pt x 2370.8575pt>
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 81.
+(pdftex.def)             Requested size: 199.16928pt x 49.77861pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/logo.png> <./Pi
+ctures/CDTI.jpg> <./Pictures/FEDER.jpg>]
+(./template.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 74.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 74.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 74.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 74.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 74.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 74.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/logo.png>] (./t
-emplate.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `template.toc'.
 
 File: Pictures/logo.png Graphic file (type png)
-
-<use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 101.
+ <use Pictures/logo.png>
+Package pdftex.def Info: Pictures/logo.png used on input line 108.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
 
 
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
+Package Fancyhdr Warning: \headheight is too small (16.0pt): 
  Make it at least 32.79387pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1]
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+<use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 108.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+ <use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 108.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
+ [1]
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 127.
+Package pdftex.def Info: Pictures/logo.png used on input line 134.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+
+<use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 134.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+ <use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 134.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [2]
-<Pictures/placeholder.png, id=22, 281.05pt x 170.6375pt>
+<Pictures/placeholder.png, id=23, 281.05pt x 170.6375pt>
 File: Pictures/placeholder.png Graphic file (type png)
 
 <use Pictures/placeholder.png>
-Package pdftex.def Info: Pictures/placeholder.png used on input line 130.
+Package pdftex.def Info: Pictures/placeholder.png used on input line 137.
 (pdftex.def)             Requested size: 209.12683pt x 126.97015pt.
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 156.
+Package pdftex.def Info: Pictures/logo.png used on input line 163.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 163.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 163.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [3 <./Pictures/placeholder.png>]
-File: Pictures/logo.png Graphic file (type png)
- <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 165.
-(pdftex.def)             Requested size: 158.93843pt x 158.94229pt.
-File: Pictures/logo.png Graphic file (type png)
- <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 169.
-(pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
- [4]
 File: Pictures/logo.png Graphic file (type png)
 
 <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 184.
+Package pdftex.def Info: Pictures/logo.png used on input line 172.
+(pdftex.def)             Requested size: 158.93843pt x 158.94229pt.
+File: Pictures/logo.png Graphic file (type png)
+ <use Pictures/logo.png>
+Package pdftex.def Info: Pictures/logo.png used on input line 176.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 176.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 176.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
+ [4]
+File: Pictures/logo.png Graphic file (type png)
+ <use Pictures/logo.png>
+Package pdftex.def Info: Pictures/logo.png used on input line 191.
+(pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 191.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 191.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [5]
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 228.
+Package pdftex.def Info: Pictures/logo.png used on input line 235.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 235.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 235.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [6] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 3415 strings out of 494985
- 44906 string characters out of 6180357
- 200801 words of memory out of 5000000
- 6553 multiletter control sequences out of 15000+600000
- 70511 words of font info for 45 fonts, out of 8000000 for 9000
+ 3418 strings out of 494985
+ 44993 string characters out of 6180357
+ 202649 words of memory out of 5000000
+ 6556 multiletter control sequences out of 15000+600000
+ 65632 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,15n,43p,234b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,43p,368b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/sha
 re/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 r12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pf
-b>
-Output written on template.pdf (7 pages, 184865 bytes).
+nts/type1/public/lm/lmri12.pfb>
+Output written on template.pdf (7 pages, 1712455 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
