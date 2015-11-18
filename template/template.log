@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.8)  2 OCT 2015 14:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.8)  18 NOV 2015 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,25 +503,32 @@ e
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
 Package pdftex.def Info: Pictures/logo.png used on input line 71.
-(pdftex.def)             Requested size: 85.35826pt x 85.3589pt.
+(pdftex.def)             Requested size: 71.13188pt x 71.12785pt.
 
-<Pictures/CDTI.jpg, id=3, 2398.9625pt x 398.48875pt>
+<Pictures/logo_botbloq.jpg, id=3, 1851.91875pt x 657.45625pt>
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 72.
+(pdftex.def)             Requested size: 170.71652pt x 60.60307pt.
+
+<Pictures/CDTI.jpg, id=4, 2398.9625pt x 398.48875pt>
 File: Pictures/CDTI.jpg Graphic file (type jpg)
  <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 80.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 81.
 (pdftex.def)             Requested size: 213.39566pt x 35.44289pt.
 
-<Pictures/FEDER.jpg, id=4, 9484.43375pt x 2370.8575pt>
+<Pictures/FEDER.jpg, id=5, 9484.43375pt x 2370.8575pt>
 File: Pictures/FEDER.jpg Graphic file (type jpg)
 
 <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 81.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 82.
 (pdftex.def)             Requested size: 199.16928pt x 49.77861pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/logo.png> <./Pi
-ctures/CDTI.jpg> <./Pictures/FEDER.jpg>]
-(./template.toc
+ctures/logo_botbloq.jpg> <./Pictures/CDTI.jpg> <./Pictures/FEDER.jpg>] (./templ
+ate.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -553,8 +560,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 108.
+Package pdftex.def Info: Pictures/logo.png used on input line 109.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 109.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -564,99 +576,124 @@ Package Fancyhdr Warning: \headheight is too small (16.0pt):
 
 File: Pictures/CDTI.jpg Graphic file (type jpg)
 <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 108.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 109.
 (pdftex.def)             Requested size: 56.9055pt x 9.449pt.
 File: Pictures/FEDER.jpg Graphic file (type jpg)
  <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 108.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 109.
 (pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [1]
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 134.
+Package pdftex.def Info: Pictures/logo.png used on input line 135.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
-File: Pictures/CDTI.jpg Graphic file (type jpg)
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
 
-<use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 134.
-(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
-File: Pictures/FEDER.jpg Graphic file (type jpg)
- <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 134.
-(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
- [2]
-<Pictures/placeholder.png, id=23, 281.05pt x 170.6375pt>
-File: Pictures/placeholder.png Graphic file (type png)
-
-<use Pictures/placeholder.png>
-Package pdftex.def Info: Pictures/placeholder.png used on input line 137.
-(pdftex.def)             Requested size: 209.12683pt x 126.97015pt.
-File: Pictures/logo.png Graphic file (type png)
- <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 163.
-(pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 135.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
 File: Pictures/CDTI.jpg Graphic file (type jpg)
  <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 163.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 135.
 (pdftex.def)             Requested size: 56.9055pt x 9.449pt.
 File: Pictures/FEDER.jpg Graphic file (type jpg)
 
 <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 163.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 135.
+(pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
+ [2]
+<Pictures/placeholder.png, id=24, 281.05pt x 170.6375pt>
+File: Pictures/placeholder.png Graphic file (type png)
+
+<use Pictures/placeholder.png>
+Package pdftex.def Info: Pictures/placeholder.png used on input line 138.
+(pdftex.def)             Requested size: 209.12683pt x 126.97015pt.
+File: Pictures/logo.png Graphic file (type png)
+ <use Pictures/logo.png>
+Package pdftex.def Info: Pictures/logo.png used on input line 164.
+(pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 164.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
+File: Pictures/CDTI.jpg Graphic file (type jpg)
+ <use Pictures/CDTI.jpg>
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 164.
+(pdftex.def)             Requested size: 56.9055pt x 9.449pt.
+File: Pictures/FEDER.jpg Graphic file (type jpg)
+
+<use Pictures/FEDER.jpg>
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 164.
 (pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [3 <./Pictures/placeholder.png>]
 File: Pictures/logo.png Graphic file (type png)
 
 <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 172.
+Package pdftex.def Info: Pictures/logo.png used on input line 173.
 (pdftex.def)             Requested size: 158.93843pt x 158.94229pt.
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 176.
+Package pdftex.def Info: Pictures/logo.png used on input line 177.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 177.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
 File: Pictures/CDTI.jpg Graphic file (type jpg)
  <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 176.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 177.
 (pdftex.def)             Requested size: 56.9055pt x 9.449pt.
 File: Pictures/FEDER.jpg Graphic file (type jpg)
 
 <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 176.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 177.
 (pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [4]
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 191.
+Package pdftex.def Info: Pictures/logo.png used on input line 192.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 192.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
 File: Pictures/CDTI.jpg Graphic file (type jpg)
  <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 191.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 192.
 (pdftex.def)             Requested size: 56.9055pt x 9.449pt.
 File: Pictures/FEDER.jpg Graphic file (type jpg)
 
 <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 191.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 192.
 (pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [5]
 File: Pictures/logo.png Graphic file (type png)
  <use Pictures/logo.png>
-Package pdftex.def Info: Pictures/logo.png used on input line 235.
+Package pdftex.def Info: Pictures/logo.png used on input line 236.
 (pdftex.def)             Requested size: 28.45274pt x 28.44383pt.
+File: Pictures/logo_botbloq.jpg Graphic file (type jpg)
+
+<use Pictures/logo_botbloq.jpg>
+Package pdftex.def Info: Pictures/logo_botbloq.jpg used on input line 236.
+(pdftex.def)             Requested size: 71.13188pt x 25.25044pt.
 File: Pictures/CDTI.jpg Graphic file (type jpg)
  <use Pictures/CDTI.jpg>
-Package pdftex.def Info: Pictures/CDTI.jpg used on input line 235.
+Package pdftex.def Info: Pictures/CDTI.jpg used on input line 236.
 (pdftex.def)             Requested size: 56.9055pt x 9.449pt.
 File: Pictures/FEDER.jpg Graphic file (type jpg)
 
 <use Pictures/FEDER.jpg>
-Package pdftex.def Info: Pictures/FEDER.jpg used on input line 235.
+Package pdftex.def Info: Pictures/FEDER.jpg used on input line 236.
 (pdftex.def)             Requested size: 56.9055pt x 14.21729pt.
  [6] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 3418 strings out of 494985
- 44993 string characters out of 6180357
- 202649 words of memory out of 5000000
- 6556 multiletter control sequences out of 15000+600000
+ 3423 strings out of 494985
+ 45128 string characters out of 6180357
+ 202713 words of memory out of 5000000
+ 6560 multiletter control sequences out of 15000+600000
  65632 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,15n,43p,368b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -666,10 +703,10 @@ lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 r12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmri12.pfb>
-Output written on template.pdf (7 pages, 1712455 bytes).
+Output written on template.pdf (7 pages, 1758869 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
