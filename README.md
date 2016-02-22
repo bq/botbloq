@@ -6,4 +6,7 @@ El objetivo principal del proyecto BOTBLOQ es la construcción de una plataforma
 
 http://botbloq.bq.com
 
-
+Otros repositorios con contenido relacionado con el proyecto: 
+https://github.com/bq/bloqs
+https://github.com/bq/web2board
+https://github.com/bq/bitbloqLibs
