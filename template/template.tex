@@ -31,6 +31,31 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{longtable} 
+\usepackage{booktabs}
+
+\usepackage[T3,T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[noenc]{tipa}
+\usepackage{tipx}
+\usepackage{pifont}
+\usepackage{eurosym}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{hhline}
+\usepackage{hyperref}
+\hypersetup{pdftex, colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue, pdfauthor=, pdfsubject=, pdfkeywords=}
+\makeatletter
+\newcommand\arraybslash{\let\\\@arraycr}
+\makeatother
+
+
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
 
 %Header
 \usepackage{graphicx}
@@ -40,11 +65,14 @@
 
 \usepackage{xcolor}
 
+\graphicspath{{Pictures/}} 
+
+
 \usepackage{lipsum}
 \setlength\headheight{16pt} %% just to make warning go away. Adjust the value after looking into the warning.
 % \rhead{{\color{blue}\rule{1cm}{1cm}}}
 
-\rhead{\includegraphics[width=1cm]{logo}\includegraphics[width=2.5cm]{logo_botbloq.jpg}}
+\rhead{\includegraphics[width=1cm]{logo}\includegraphics[width=2.5cm]{logo_botbloq}}
 \lhead{BOTBLOQ: Ecosistema integral para el diseño, fabricación\\y programación de robots DIY}
 
 \lfoot{\center{\footnotesize { \hspace{1cm} \newline Proyecto Financiado por el Centro de Desarrollo Tecnológico Industrial (CDTI).\\Expediente IDI-20150289 \\ Cofinanciado por el Fondo Europeo de Desarrollo Regional (FEDER) a través del Programa Operativo Plurirregional de Crecimiento Inteligente 2014-2020} \center{\includegraphics[width=2cm]{CDTI}
@@ -54,7 +82,7 @@
 
 %\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
 
-\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+%\graphicspath{Pictures/} % Specifies the directory where pictures are stored
 
 \begin{document}
 
@@ -69,7 +97,7 @@
 \center % Center everything on the page
 
 \includegraphics[width=2.5cm]{logo}
-\includegraphics[width=6cm]{logo_botbloq.jpg}\\[0.5cm]
+\includegraphics[width=6cm]{logo_botbloq}\\[0.5cm]
 
 { \huge \bfseries BOTBLOQ: Ecosistema integral para el diseño, fabricación y programación de robots DIY}\\[0.5cm] % Title of your document
 
@@ -85,7 +113,7 @@
 
 %Resumen del documento
 \HRule \\[0.4cm]
-\renewcommand{\abstractname}{RESUMEN DEL DOCUMENTO}
+\renewcommand{\abstractname}{RESUMEN DEL DOCUMENTO - CAMBIO}
 \begin{abstract}
 Your abstract goes here...
 ...
@@ -94,7 +122,6 @@ Your abstract goes here...
 
 {\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
 
-%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
 
 \vfill % Fill the rest of the page with whitespace
 
@@ -112,124 +139,8 @@ Your abstract goes here...
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-\section{Introduction} % Major section
-
-Example citation \cite{Figueredo:2009dg}.
-
-%------------------------------------------------
-
-\subsection{Subsection 1} % Sub-section
-
-\lipsum[1] % Dummy text
-
-%------------------------------------------------
-
-\subsection{Subsection 2} % Sub-section
-
-\lipsum[2] % Dummy text
-
-%------------------------------------------------
-
-\subsubsection{Subsubsection 1} % Sub-sub-section
-
-\lipsum[3] % Dummy text
-
-\begin{figure}[H] % Example image
-\center{\includegraphics[width=0.5\linewidth]{placeholder}}
-\caption{Example image.}
-\label{fig:speciation}
-\end{figure}
-
-%------------------------------------------------
-
-\subsubsection{Subsubsection 2} % Sub-sub-section
-
-\lipsum[4] % Dummy text
 
 
-%----------------------------------------------------------------------------------------
-%	MAJOR SECTION 1
-%----------------------------------------------------------------------------------------
-
-\section{Content Section} % Major section
-
-\lipsum[5] % Dummy text
-
-%------------------------------------------------
-
-\subsection{Subsection 1} % Sub-section
-
-\subsubsection{Subsubsection 1} % Sub-sub-section
-
-\lipsum[6] % Dummy text
-
-%------------------------------------------------
-
-\subsubsection{Subsubsection 2} % Sub-sub-section
-
-\lipsum[6] % Dummy text
-\begin{wrapfigure}{l}{0.4\textwidth} % Inline image example
-  \begin{center}
-    \includegraphics[width=0.38\textwidth]{logo}
-  \end{center}
-  \caption{Logo}
-\end{wrapfigure}
-\lipsum[7-8] % Dummy text
-
-%------------------------------------------------
-
-\subsubsection{Subsubsection 3} % Sub-sub-section
-
-\begin{description} % Numbered list example
-
-\item[First] \hfill \\
-\lipsum[9] % Dummy text
-
-\item[Second] \hfill \\
-\lipsum[10] % Dummy text
-
-\item[Third] \hfill \\
-\lipsum[11] % Dummy text
-
-\end{description} 
-
-%----------------------------------------------------------------------------------------
-%	MAJOR SECTION X - TEMPLATE - UNCOMMENT AND FILL IN
-%----------------------------------------------------------------------------------------
-
-%\section{Content Section}
-
-%\subsection{Subsection 1} % Sub-section
-
-% Content
-
-%------------------------------------------------
-
-%\subsection{Subsection 2} % Sub-section
-
-% Content
-
-%----------------------------------------------------------------------------------------
-%	CONCLUSION
-%----------------------------------------------------------------------------------------
-
-\section{Conclusion} % Major section
-
-\lipsum[12-13]
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
-
-\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
-Figueredo, A.~J. and Wolf, P. S.~A. (2009).
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330.
- 
-\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
 
