@@ -1,0 +1,40 @@
+{
+  "type": "statement",
+  "name": "botbloqSnakeStop",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-snake-stop",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Detener"
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqSnake"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "snake",
+        "type": "BotbloqSnake"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "snake.stop()"
+      }
+    ]
+  }
+}

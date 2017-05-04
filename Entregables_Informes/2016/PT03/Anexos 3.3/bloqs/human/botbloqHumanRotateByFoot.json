@@ -1,0 +1,63 @@
+{
+  "type": "statement",
+  "name": "botbloqHumanRotateByFoot",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-human-rotatefoot",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Rotar"
+      },
+      {
+        "id": "DEGREES",
+        "alias": "numberInput",
+        "value": 45
+      },
+      {
+        "alias": "text",
+        "value": "° sobre el pie"
+      },
+      {
+        "id": "FOOT",
+        "alias": "staticDropdown",
+        "options": [
+          {
+            "label": "derecho",
+            "value": "RIGHT"
+          },
+          {
+            "label": "izquierdo",
+            "value": "LEFT"
+          }
+        ]
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqHuman"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "human",
+        "type": "BotbloqHuman"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "human.rotateByFoot({DEGREES},\"{FOOT}\")"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "type": "statement",
+  "name": "botbloqManipulatorMoveOnSpace",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-manipulator-moveonspace",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Desplazarse a"
+      },
+      {
+        "alias": "text",
+        "value": "x:"
+      },
+      {
+        "id": "X",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "y:"
+      },
+      {
+        "id": "Y",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "z:"
+      },
+      {
+        "id": "Z",
+        "alias": "numberInput",
+        "value": 0
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqManipulator"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "manipulator",
+        "type": "BotbloqManipulator"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "manipulator.move({X}, {Y}, {Z})"
+      }
+    ]
+  }
+}

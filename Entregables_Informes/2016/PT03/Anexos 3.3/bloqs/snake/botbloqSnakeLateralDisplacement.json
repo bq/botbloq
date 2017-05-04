@@ -1,0 +1,54 @@
+{
+  "type": "statement",
+  "name": "botbloqSnakeLateralDisplacement",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-snake-lateraldisplacement",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Moverse lateralmente hacia la"
+      },
+      {
+        "id": "SIDE",
+        "alias": "staticDropdown",
+        "options": [
+          {
+            "label": "derecha",
+            "value": "RIGHT"
+          },
+          {
+            "label": "izquierda",
+            "value": "LEFT"
+          }
+        ]
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqSnake"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "snake",
+        "type": "BotbloqSnake"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "snake.lateralDisplacement(\"{SIDE}\")"
+      }
+    ]
+  }
+}

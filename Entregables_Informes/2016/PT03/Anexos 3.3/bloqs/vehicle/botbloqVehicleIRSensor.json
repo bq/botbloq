@@ -1,0 +1,54 @@
+{
+  "type": "output",
+  "name": "botbloqVehicleIRSensor",
+  "connectors": [
+    {
+      "type": "connector--output",
+      "accept": "connector--input"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-vehicle-ir",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Leer sensor"
+      },
+      {
+        "id": "SIDE",
+        "alias": "staticDropdown",
+        "options": [
+          {
+            "label": "derecho",
+            "value": "RIGHT"
+          },
+          {
+            "label": "izquierdo",
+            "value": "LEFT"
+          }
+        ]
+      }
+    ]
+  ],
+  "code": "",
+  "returnType": {
+    "type": "simple",
+    "value": "int"
+  },
+  "python": {
+    "libraries": [
+      "BotbloqVehicle"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "vehicle",
+        "type": "BotbloqVehicle"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "vehicle.readIRSensor(\"{SIDE}\")"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "type": "output",
+  "name": "botbloqManipulatorCanMove",
+  "connectors": [
+    {
+      "type": "connector--output",
+      "accept": "connector--input"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-manipulator-canmove",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "¿Puede moverse a "
+      },
+      {
+        "alias": "text",
+        "value": "x:"
+      },
+      {
+        "id": "X",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "y:"
+      },
+      {
+        "id": "Y",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "z:"
+      },
+      {
+        "id": "Z",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "?"
+      }
+    ]
+  ],
+  "code": "",
+  "returnType": {
+    "type": "simple",
+    "value": "bool"
+  },
+  "python": {
+    "libraries": [
+      "BotbloqManipulator"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "manipulator",
+        "type": "BotbloqManipulator"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "vehicle.canMove({X}, {Y}, {Z})"
+      }
+    ]
+  }
+}

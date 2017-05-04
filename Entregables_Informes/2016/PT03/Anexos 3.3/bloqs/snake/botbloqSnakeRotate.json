@@ -1,0 +1,54 @@
+{
+  "type": "statement",
+  "name": "botbloqSnakeRotate",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-snake-rotate",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Rotar hacia la"
+      },
+      {
+        "id": "SIDE",
+        "alias": "staticDropdown",
+        "options": [
+          {
+            "label": "derecha",
+            "value": "RIGHT"
+          },
+          {
+            "label": "izquierda",
+            "value": "LEFT"
+          }
+        ]
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqSnake"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "snake",
+        "type": "BotbloqSnake"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "snake.rotate(\"{SIDE}\")"
+      }
+    ]
+  }
+}

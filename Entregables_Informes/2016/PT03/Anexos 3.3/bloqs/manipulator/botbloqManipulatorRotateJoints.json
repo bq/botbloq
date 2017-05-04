@@ -1,0 +1,67 @@
+{
+  "type": "statement",
+  "name": "botbloqManipulatorRotateJoints",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-manipulator-rotatejoints",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Mover la articulación"
+      },
+      {
+        "id": "JOINT_NUMBER",
+        "alias": "staticDropdown",
+        "options": [
+          {
+            "label": "1",
+            "value": "1"
+          },
+          {
+            "label": "2",
+            "value": "2"
+          },
+          {
+            "label": "3",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "id": "DEGREES",
+        "alias": "numberInput",
+        "value": 0
+      },
+      {
+        "alias": "text",
+        "value": "grados"
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqManipulator"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "manipulator",
+        "type": "BotbloqManipulator"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "manipulator.moveJoint({JOINT_NUMBER}, {DEGREES})"
+      }
+    ]
+  }
+}

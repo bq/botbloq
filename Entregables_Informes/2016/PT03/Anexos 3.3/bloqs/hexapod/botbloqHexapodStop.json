@@ -1,0 +1,40 @@
+{
+  "type": "statement",
+  "name": "botbloqHexapodStop",
+  "connectors": [
+    {
+      "type": "connector--top",
+      "accept": "connector--bottom"
+    },
+    {
+      "type": "connector--bottom",
+      "accept": "connector--top"
+    }
+  ],
+  "bloqClass": "bloq-botbloq-hexapod-stop",
+  "content": [
+    [
+      {
+        "alias": "text",
+        "value": "Detener"
+      }
+    ]
+  ],
+  "code": "",
+  "python": {
+    "libraries": [
+      "BotbloqHexapod"
+    ],
+    "needInstanceOf": [
+      {
+        "name": "hexapod",
+        "type": "BotbloqHexapod"
+      }
+    ],
+    "codeLines": [
+      {
+        "code": "hexapod.stop()"
+      }
+    ]
+  }
+}
